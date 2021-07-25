@@ -5,6 +5,7 @@
 
 # 개발환경
 * IDE      : IntelliJ
+* JDK : OpenJDK 11
 * Framework : Spring Boot 2.5.2 + MyBatis
 * Database : Maria Database + PostgreSQL Database
 * Java Tools : Lombok + SLF4J
