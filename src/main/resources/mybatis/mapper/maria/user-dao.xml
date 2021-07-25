@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- /mybatis/mapper/maria -->
+<mapper namespace="com.db.multidatabase.user.dao.MyUserDao">
+    <select id="selectUserById" parameterType="int" resultType="com.db.multidatabase.dto.UserDto">
+        SELECT *
+        FROM USER
+        WHERE id = #{value}
+    </select>
+</mapper>
